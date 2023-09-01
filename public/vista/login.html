@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--IDIOMA-->
+<html lang="es">
+<!--ENCABEZADO DEL PROYECTO-->
+
+<head>
+    <!--ARCHIVOS META CARACTERES ESPECIALES-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--TITULO-->
+    <title>login</title>
+    <!-- SE PONEN LOS LINKS DE LOS ESTILOS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--CONECTANDO LA CARPETA DE EL CSS-->
+    <link rel="stylesheet" href="./../css/login.css">
+</head>
+<!--CUERPO DEL PROYECTO -->
+<body>
+    <!--SE UBICA EL LOGO -->
+    <div class="container h-100">
+        <div class="d-flex justify-content-center h-100">
+            <div class="user_card">
+                <div class="d-flex justify-content-center">
+                    <div class="brand_logo_container">
+                        <!--SE PONE LA IMAGEN DEL LOGO -->
+                        <img src="https://th.bing.com/th/id/OIP.KMsJzcgqdlSstEu81IXDiQHaH4?pid=ImgDet&rs=1" class="brand_logo" alt="Logo">
+                    </div>
+                </div>
+
+
+                <!--AQUI ESTA TODO LO QUE ES DE LOS CAMPOS PARA INGRESAR  -->
+                <div class="d-flex justify-content-center form_container">
+                    <form>
+                        <!--DIV QUE TIENE EL APARTADO DEL EL CORREO -->
+                        <div class="input-group mb-3">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                            </div>
+                            <input type="text" name="" class="form-control input_user" value="" placeholder="Correo">
+                        </div>
+                        <!--DIV QUE TIENE EL APARTADO DE LA CONTRASENA -->
+                        <div class="input-group mb-2">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="fas fa-key"></i></span>
+                            </div>
+                            <input type="password" name="" class="form-control input_pass" value="" placeholder="Contraseña">
+                        </div>
+                        <!--DIV QUE TIENE EL APARTADO DE LAS OPCIONES DE RECORDAR AL USUARIO-->
+                        <div class="form-group">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customControlInline">
+                                <label class="custom-control-label" for="customControlInline">Recordar</label>
+                            </div>
+                        </div>
+                        <!--BOTON DE INICIO DE SESION-->
+                        <div class="d-flex justify-content-center mt-3 login_container">
+                        <button type="button" name="button" class="btn login_btn">Iniciar sesi  on</button>
+                        </div>
+                    </form>
+                </div>
+                <!--APARTADO DE LAS OPCIONES DE AYUDA PARA EL USUARIO-->
+                <div class="mt-4">
+                    <div class="d-flex justify-content-center links">
+                        Aun no tienes cuenta? <a href="#" class="ml-2"><Ri:a>Registrate</Ri:a></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<!--  CIERRE DEL HTML -->
+</html>
